@@ -1,9 +1,7 @@
-                                        Awesome Ray Tracing 
-                                        -------------------
-
-                TLDR ray tracing  
-
-Observer observes viewport.
+                                        TLDR Ray Tracing 
+                                        ----------------
+---
+We have a viewport.
 
                       Viewport
                         
@@ -19,8 +17,8 @@ Observer observes viewport.
                  [ o , k , a ]
                  [ q , b , h ]
 
-
-The viewport exists in our 3D cartesian plane.
+---
+We have a 3D cartesian plane.
 
                       3D cartesian plane is a 3D matrix of coordinaties X, Y, Z.
                                              |
@@ -34,7 +32,8 @@ The viewport exists in our 3D cartesian plane.
     |.'    | .'    |/     |/      |      |      \|     \|    `. |   `. |
     +------+'      +------+       +------+       +------+      `+------+
                       
-
+---
+We have a light source.
 
           ;   :   ;
        .   \_,!,_/   ,
@@ -47,6 +46,7 @@ The viewport exists in our 3D cartesian plane.
           ;   :   ;  
 
 ---
+Add light source and viewport to 3D cartesian plane.
 
                  .+----------------------------------+
                .' |                                .'|
@@ -63,6 +63,7 @@ The viewport exists in our 3D cartesian plane.
               +----------------------------------+'
 
 ---
+Iterate using ray vectors to perform ray trace.
 
                 .+----------------------------------+
               .' |                                .'|
