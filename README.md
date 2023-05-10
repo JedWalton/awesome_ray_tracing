@@ -79,7 +79,7 @@ We fire rays from light source.
              +----------------------------------+'
 
 ---
-We have ray traced output in viewport.
+Observe ray traced output in viewport.
 
 
                                      Viewport
