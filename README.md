@@ -67,8 +67,8 @@ Fire rays from light source.
                 .+----------------------------------+
               .' |                                .'|
              +---+------------------------------+'  |
-             |   |  \ | / \                     |   |          - Rays fired in all directions.
-             |   |--- O ---\                    |   |          - Rays bounce around until they 
+             |   |  \ | / \                     |   |          + Rays fired in all directions.
+             |   |--- O ---\                    |   |          + Rays bounce around until they 
              |   |  / | \   \                   |   |             hit the viewport.
              |   | /     \   \                  |   |
              |   |/      [l,n,p]                |   |
@@ -84,8 +84,8 @@ Observe ray traced output in viewport.
 
                                      Viewport
              Aww yeah                          
-                  \                - [l, n, p]     - Viewport output calculated using ray data.
-                   \            -                  - Viewport output is rendered. 
+                  \                - [l, n, p]     + Viewport output calculated using ray data.
+                   \            -                  + Viewport output is rendered. 
                     (⌐■_■)  -------- [o, k, a]      
                    Observer    -                    
                                    - [q, b, h]     
