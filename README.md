@@ -1,55 +1,45 @@
-### Ray Tracing made awesome!
+                                        Awesome Ray Tracing 
+                                        -------------------
 
-A 3D "map" or vector space is a series of coordinates. X, Y, Z
+Observer observes viewport.
 
-Observer looks at a viewport.
-
-
-                - [l, n, p]
-            -   
-Observer -------- [o, k, a]      Over here is our 3D cartesian plane.
-            -                       The rays in our model are traced from the
-                - [q, b, h]         light in our 3D cartesian plane and reflect 
-                                    around of different surfaces.
-
-                                    These rays will hit the view port and 
-                                    display on screen :)
-
-
-Our viewport [l,n,p] is a 3X3 set of pixels which can display on your screen!
-             [o,k,a]
-             [q,b,h]
-
-
-The viewport here exists as a set of coordinates in our 3D cartesian plane.
-
-                        Viewport exists is our 3D cartesian plane.
-                            a 3D cartesian plane is just 3D matrix.
-                            X, Y, Z.     |
-                                         |
-                                         V
-   .+------+     +------+     +------+     +------+     +------+.
- .' |    .'|    /|     /|     |      |     |\     |\    |`.    | `.
-+---+--+'  |   +-+----+ |     +------+     | +----+-+   |  `+--+---+
-|   |  |   |   | |    | |     |      |     | |    | |   |   |  |   |
-|  ,+--+---+   | +----+-+     +------+     +-+----+ |   +---+--+   |
-|.'    | .'    |/     |/      |      |      \|     \|    `. |   `. |
-+------+'      +------+       +------+       +------+      `+------+
+                      Viewport
                         
+                    - [l, n, p]
+                -   
+    Observer -------- [o, k, a]      
+                -                    
+                    - [q, b, h]     
 
-A 3D map can be represented by coordinates. X, Y, Z.
 
-X, Y, Z represent every possible place a light ray could be in our 3D cartesian
-plane.
 
-We can create a light source in our 3D vector space. This light source will 
-fire rays in all directions like the sun!
+    Our viewport [ l , n , p ] is a 3X3 set of pixels which can display on your screen!
+                 [ o , k , a ]
+                 [ q , b , h ]
+
+
+The viewport here exists here in our 3D cartesian plane.
+
+                                a 3D cartesian plane is a 3D matrix of points X, Y, Z.
+                                             |
+                                             |
+                                             V
+       .+------+     +------+     +------+     +------+     +------+.
+     .' |    .'|    /|     /|     |      |     |\     |\    |`.    | `.
+    +---+--+'  |   +-+----+ |     +------+     | +----+-+   |  `+--+---+
+    |   |  |   |   | |    | |     |      |     | |    | |   |   |  |   |
+    |  ,+--+---+   | +----+-+     +------+     +-+----+ |   +---+--+   |
+    |.'    | .'    |/     |/      |      |      \|     \|    `. |   `. |
+    +------+'      +------+       +------+       +------+      `+------+
+                      
+
+X, Y, Z represent every possible ray location in our 3D cartesian plane.
 
 
           ;   :   ;
        .   \_,!,_/   ,
-        `.,'     `.,'          Light rays fired in all directions!
-         /         \               Sun exists in our 3D cartesian plane. 
+        `.,'     `.,'          Light rays fired in all directions like the sun!
+         /         \               Light exists in our 3D cartesian plane. 
     ~ -- : The Sun  : -- ~  
          \         /
         ,'`._   _.'`.
@@ -57,16 +47,16 @@ fire rays in all directions like the sun!
           ;   :   ;  
 
 
- Here's our update cartesian plane! 
+Updated 3D cartesian plane
 
                  .+----------------------------------+
                .' |                                .'|
               +---+------------------------------+'  |
               |   |  \ | /                       |   |
               |   |--- O ---                     |   |
-              |   |  / | \                       |   |
-              |   |                              |   |
-              |   |       [l,n,p]                |   |
+              |   |  / | \                       |   |          Updated 3D cartesian plane
+              |   |                              |   |             + Add light source 
+              |   |       [l,n,p]                |   |             + Add viewport
               |   |       [o,k,a]                |   |
               |   |       [q,b,h]                |   |
               |  ,+------------------------------+---+
@@ -74,12 +64,7 @@ fire rays in all directions like the sun!
               +----------------------------------+'
 
 
-The suns rays bounce around the 3D cartesian plane and eventually hit our
-viewport!
-
-This shows the light from the sun 'Ray Traced'
-around our lovely 3D cartesian plane to hit the viewport!
-
+Rays bounce in 3D cartesian plane and hit viewport.
 
                          .+----------------------------------+
                        .' |                                .'|
@@ -96,11 +81,23 @@ around our lovely 3D cartesian plane to hit the viewport!
                       +----------------------------------+'
 
 
-Here we see a ray reaching l, p and o in our viewport matrix! :)
+Viewport performs calculation using ray direction and ray data and renders
+the viewport.
 
-Now, a simple calculation is needed to find the angle and direction of our ray
-which can then be used to light up our viewport!
+                                                  Viewport
+                                                    
+                                                - [l, n, p]
+                                            -   
+                            \( ﾟヮﾟ)/     -------- [o, k, a] 
+                            Observer        -   
+                                                - [q, b, h]     
 
 
-                             \( ﾟヮﾟ)/
 
+
+
+---
+
+Thank you for reading.
+
+Have a wonderful day.
