@@ -1,6 +1,8 @@
                                         Awesome Ray Tracing 
                                         -------------------
 
+                TLDR ray tracing  
+
 Observer observes viewport.
 
                       Viewport
