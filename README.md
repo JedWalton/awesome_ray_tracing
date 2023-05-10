@@ -44,7 +44,7 @@ We have a light source.
           ;   :   ;  
 
 ---
-Put light source and viewport in plane.
+Put light source and viewport in 3D cartesian plane.
 
                  .+----------------------------------+
                .' |                                .'|
