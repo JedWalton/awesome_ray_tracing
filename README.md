@@ -12,10 +12,8 @@ We have a viewport.
                     - [q, b, h]     
 
 
-
-    Our viewport [ l , n , p ] is a 3X3 set of pixels which can display on your screen!
-                 [ o , k , a ]
-                 [ q , b , h ]
+    Viewport is a 3X3 set of pixels which can display on your screen!
+                - It can be any resolution e.g. 1920x1080
 
 ---
 We have a 3D cartesian plane.
@@ -46,7 +44,7 @@ We have a light source.
           ;   :   ;  
 
 ---
-Add light source and viewport to 3D cartesian plane.
+We put light source and viewport in 3D cartesian plane.
 
                  .+----------------------------------+
                .' |                                .'|
@@ -64,7 +62,7 @@ Add light source and viewport to 3D cartesian plane.
 
 
 ---
-Light source fires rays.
+We fire rays from light source.
 
                 .+----------------------------------+
               .' |                                .'|
@@ -81,7 +79,7 @@ Light source fires rays.
              +----------------------------------+'
 
 ---
-
+We have ray traced output in viewport.
 
 
                                      Viewport
