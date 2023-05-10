@@ -44,7 +44,7 @@ We have a light source.
           ;   :   ;  
 
 ---
-We put light source and viewport in 3D cartesian plane.
+Put light source and viewport in plane.
 
                  .+----------------------------------+
                .' |                                .'|
@@ -62,7 +62,7 @@ We put light source and viewport in 3D cartesian plane.
 
 
 ---
-We fire rays from light source.
+Fire rays from light source.
 
                 .+----------------------------------+
               .' |                                .'|
