@@ -7,8 +7,8 @@ Observer observes viewport.
                         
                     - [l, n, p]
                 -   
-    Observer -------- [o, k, a]      
-                -                    
+     (⌐■_■)  -------- [o, k, a]      
+    Observer    -                    
                     - [q, b, h]     
 
 
@@ -18,9 +18,9 @@ Observer observes viewport.
                  [ q , b , h ]
 
 
-The viewport here exists here in our 3D cartesian plane.
+The viewport exists in our 3D cartesian plane.
 
-                                a 3D cartesian plane is a 3D matrix of points X, Y, Z.
+                      3D cartesian plane is a 3D matrix of coordinaties X, Y, Z.
                                              |
                                              |
                                              V
@@ -33,21 +33,18 @@ The viewport here exists here in our 3D cartesian plane.
     +------+'      +------+       +------+       +------+      `+------+
                       
 
-X, Y, Z represent every possible ray location in our 3D cartesian plane.
-
 
           ;   :   ;
        .   \_,!,_/   ,
-        `.,'     `.,'          Light rays fired in all directions like the sun!
-         /         \               Light exists in our 3D cartesian plane. 
+        `.,'     `.,'              - Like the Sun, Light rays are fired in all directions.
+         /         \               - Light exists in our 3D cartesian plane. 
     ~ -- : The Sun  : -- ~  
          \         /
         ,'`._   _.'`.
        '   / `!` \   `
           ;   :   ;  
 
-
-Updated 3D cartesian plane
+---
 
                  .+----------------------------------+
                .' |                                .'|
@@ -63,41 +60,35 @@ Updated 3D cartesian plane
               |.'                                | .'
               +----------------------------------+'
 
+---
 
-Rays bounce in 3D cartesian plane and hit viewport.
+                .+----------------------------------+
+              .' |                                .'|
+             +---+------------------------------+'  |
+             |   |  \ | / \                     |   |          - Rays fired in all directions.
+             |   |--- O ---\                    |   |          - Rays bounce around until they 
+             |   |  / | \   \                   |   |             hit the viewport.
+             |   | /     \   \                  |   |
+             |   |/      [l,n,p]                |   |
+             |   |\      [o,k,a]                |   |
+             |   | \    /[q,b,h]                |   |
+             |  ,+--\--/-----------------------+---+
+             |.'     \/                         | .'
+             +----------------------------------+'
 
-                         .+----------------------------------+
-                       .' |                                .'|
-                      +---+------------------------------+'  |
-                      |   |  \ | / \                     |   |
-                      |   |--- O ---\                    |   |
-                      |   |  / | \   \                   |   |
-                      |   | /     \   \                  |   |
-                      |   |/      [l,n,p]                |   |
-                      |   |\      [o,k,a]                |   |
-                      |   | \    /[q,b,h]                |   |
-                      |  ,+--\--/-----------------------+---+
-                      |.'     \/                         | .'
-                      +----------------------------------+'
-
-
-Viewport performs calculation using ray direction and ray data to renders
-the viewport.
-
-                                                  Viewport
-                                                    
-                                                - [l, n, p]
-                                            -   
-                            \( ﾟヮﾟ)/     -------- [o, k, a] 
-                            Observer        -   
-                                                - [q, b, h]     
+---
 
 
 
+                                     Viewport
+             Aww yeah                          
+                  \                - [l, n, p]     - Viewport output calculated using ray data.
+                   \            -                   - Viewport output is rendered. 
+                    (⌐■_■)  -------- [o, k, a]      
+                   Observer    -                    
+                                   - [q, b, h]     
 
 
 ---
 
-Thank you for reading.
-
-Have a wonderful day.
+Thanks for reading.
