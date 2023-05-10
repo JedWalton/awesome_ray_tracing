@@ -81,7 +81,7 @@ Rays bounce in 3D cartesian plane and hit viewport.
                       +----------------------------------+'
 
 
-Viewport performs calculation using ray direction and ray data and renders
+Viewport performs calculation using ray direction and ray data to renders
 the viewport.
 
                                                   Viewport
