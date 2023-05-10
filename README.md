@@ -83,7 +83,7 @@ The viewport exists in our 3D cartesian plane.
                                      Viewport
              Aww yeah                          
                   \                - [l, n, p]     - Viewport output calculated using ray data.
-                   \            -                   - Viewport output is rendered. 
+                   \            -                  - Viewport output is rendered. 
                     (⌐■_■)  -------- [o, k, a]      
                    Observer    -                    
                                    - [q, b, h]     
